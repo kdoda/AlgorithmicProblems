@@ -7,7 +7,7 @@ using namespace std;
 //Find Missing Number
 //Given a contiguous sequence of numbers in which each number repeats thrice, there is exactly one missing number.Find the missing number.
 //
-//eg: 11122333			: Missing number 2
+//eg: 11122333		: Missing number 2
 //    11122233344455666 : Missing number 5
 
 //We can obeserve that for a given index A[3i-1] = i, if 3i-1 is before the missing number 
