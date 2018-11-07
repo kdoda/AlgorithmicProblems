@@ -33,7 +33,6 @@ int findClosest(const vector<int> &v, int target)
 		if (v[m] == target)
 			return target; // { closestTarget = target; break; } if we want one exit point
 
-		//maybe get rid of the abs here
 		int thisDiff = abs(v[m] - target);
 		if (thisDiff < minDiff)
 		{
@@ -75,8 +74,6 @@ int findClosestRek(const vector<int> &v, int target)
 {
 	return findClosestRekUtil(v, target, 0, v.size() - 1);
 }
-
-
 
 int main()
 {
