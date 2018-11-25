@@ -57,4 +57,5 @@ private:
 	int capacity;
 	list<keyValue>queue; 				  //list of values (double linked list)
 	unordered_map<int, list<keyValue>::iterator> map; //key, and pointer to the list node
+	
 };
