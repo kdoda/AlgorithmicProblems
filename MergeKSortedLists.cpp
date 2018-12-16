@@ -8,7 +8,7 @@
  */
 typedef pair<int, pair<int, ListNode*>> ppi;
 
-//O(N*logk) N- number of all elements, k nr of arrays
+//O(N*logk) N- number of all elements, k nr of slots in array
 class Solution {
     
 public:
